@@ -1,0 +1,39 @@
+h1{
+	font-family: helvetica, sans-serif;
+	text-align: center;
+}
+section#main{
+	left: 300px;
+	top: 0px;
+	width: 650px;
+	position: absolute;
+}
+section#menu{
+	background-color: black;
+	opacity: 0.7;
+	width: 250px;
+	padding-bottom: 500px;
+}
+#whiteText{
+	color: white;
+}
+#menuHeader{
+	font-family: helvetica, sans-serif;
+	color: green;
+	font-size: 22pt;
+}
+#menuImage{
+	width: 250px;
+	height: 150px;
+}
+header#buildingTitle{
+	text-align: center;
+}
+#bottomSpace{
+	padding-bottom: 30px;
+}
+footer#fixedFooter{
+	position: absolute;
+	top: 760px;
+	left: 400px;
+}

@@ -1,0 +1,42 @@
+body{
+	background-image: url("images/background_image.jpg");
+	color:white;
+}
+h1, h2, h3, h4, h5{
+	color: white;
+}
+a{
+	color:white;
+}
+a:hover{
+	color:green;
+}
+header#top{
+	background-color: black;
+	opacity: 0.6;
+	font-family: Helvetica;
+	text-align: center;
+	color: #BCB223;
+}
+#navbar{
+	text-align: center;
+}
+#navbar ul{
+	list-style-type: none;
+	font-size: 20pt;
+}
+#navbar li{
+	display: inline;
+}
+#navbar a{
+	text-decoration: none;
+}
+section#main{
+	font-family: "comic sans", serif;
+}
+img{
+	style:"width: 300px; height: 300px";
+}
+footer{
+	text-align: center;
+}

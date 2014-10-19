@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+		<title>Various forms</title>
+	</head>
+	<body>
+	<section id="main">
+		<h1>Course survey</h1><br>
+		<label>Contact info <br></label>
+		<form id="inputform" action="http://www.idi.ntnu.no/~michailg/IT2805/form.php" method="post">
+			Name: 		<input type="text" name="name" value="ex: John Doe" required><br>
+			E-mail: 	<input type="text" name="email" value="person@example.com" required><br>
+			Address: 	<input type="text" name="address"><br>
+			Contact #: 	<input type="text" name="phone"><br>
+			</label>
+			<br>
+			Year of study:
+			<br><br>
+
+			<label>Current year <br>
+			<select name="year" required>
+			<option value="1">1st year (freshman)</option>
+			<option value="2">2nd year (sophmore)</option>
+			<option value="3">3rd year (junior)</option>
+			<option value="4">4th year (senior)</option>
+			</select>
+			</label>
+
+			<br><br>
+			Start date: <br> <input type="text" name="startDate"><br><br>
+
+			<label>Courses interested in: <br>
+
+			ITX1001: HTML Basics <input type="checkbox" name="classes[]" value="itx1001"><br>
+			ITX1002: URLs and Site Structures <input type="checkbox" name="classes[]" value="itx1102"><br>
+			ITX2001: Introduction to Cascading Style Sheets (CSS) <input type="checkbox" name="classes[]" value="itx2001"><br>
+			ITX2002: CSS Properties and Applications  <input type="checkbox" name="classes[]" value="itx2002"><br>
+			ABC1001: Working with Multimedia on the Web  <input type="checkbox" name="classes[]" value="abc1001"><br>
+			JSX1000: Introduction to JavaScript <input type="checkbox" name="classes[]" value="jsx1000"><br>
+			JSX1040: JavaScript: DOM  <input type="checkbox" name="classes[]" value="jsx1040"><br>
+			XML1000: XML: Formatting Namespace Trees <input type="checkbox" name="classes[]" value="xml1000"><br>
+			<br>
+			</label>
+
+			<legend>Addisional comments or requests</legend>
+			<label> <textarea name="comments" cols="80" rows="6" required></textarea></label> <br/>
+			<br>
+			<br>
+			<input type="submit" value="Submit form">
+		</form>
+		</section>
+	</body>
+</html>

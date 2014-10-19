@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			var quotes = ["Never give up, for that is just the place and time that the tide will turn",
+				"If you're going through hell, keep going",
+				"Do something wonderful, people may imitate it",
+				"It's always too early to quit",
+				"Don't give up. Don't lose hope. Don't sell out",
+				"The harder the conflict, the more glorious the triumph",
+				"Things do not happen. Things are made to happen",
+				"Do not wait to strike till the iron is hot; but make it hot by striking",
+				"Pursue one great decisive aim with force and determination",
+				"Setting goals is the first step in turning the invisible into the visible"];
+
+				var random_number=Math.floor(Math.random()*10);
+
+				window.addEventListener("load", function(){
+					document.write("<h1>Inspirational quote of the day:</h1>");
+					document.write("<h3>"+quotes[random_number]+"</h3>");
+				});
+		</script>
+	</head>
+</html>

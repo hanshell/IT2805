@@ -1,0 +1,30 @@
+p {
+	font-family: Georgia, serif;
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: Helvetica, sans-serif;
+}
+nav {
+	text-align: center;
+}
+section#main{
+   	width: 76%;
+   	position: relative;
+ 	float: right;
+   	margin-bottom: 10px;
+   	padding-left: 4%;
+}
+footer{
+	height: 100px;
+	width: 100%;
+	clear: both;
+    text-align: center;
+}
+h1{
+	text-align: center;
+}
+body{
+	font-family: Georgia, serif;
+}

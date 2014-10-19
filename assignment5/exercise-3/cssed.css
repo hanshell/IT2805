@@ -1,0 +1,32 @@
+header#top{
+	background-color: black;
+	color: white;
+	font-family: Helvetica;
+	opacity: 0.85;
+	text-align: center;
+	padding-bottom: 30px;
+	font: bold 15px serif;
+
+}
+header#articleHeader{
+	margin-top: 10px;
+	margin-bottom: 30px; 
+	font: bold 40px Helvetica;
+}
+section#byline{
+	font: 12px serif;
+}
+section#main{
+	position: relative;
+	left: 35%;
+}
+section#bodyText{
+	max-width: 600px;
+}
+section#leadParagraph{
+	max-width: 600px;
+	font: 20px serif;
+}
+#headerspace{
+	margin-bottom: 2px;
+}
