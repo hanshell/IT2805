@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="fag.js"></script>
+	</head>
+	<body>
+		<div id="heading">
+		<h1>Diverse fag jeg har tatt</h1>
+		</div>
+		<br/>
+		<div id="menubar">
+		<hr>
+		<ul>
+			<li><a href="ommeg.html">Om meg | </a></li>
+			<li><a href="fag.html">Fag jeg har tatt | </a></li>
+			<li><a href="artige.html">Artige videoer | </a></li>
+			<li><a href="random">Random andre ting |</a></li>
+			<li><a href="kontakt.html">Kontakt | </a></li>
+		</ul>
+		<hr>
+		</div>
+		<div class="courses">
+		<div id="firstyear">
+			<h4>Første år:</h4>
+			<script>write_courses(courses_firstyear);</script>
+		</div>
+		<div id="secondyear">
+			<h4>Andre år:</h4>
+			<script>write_courses(courses_secondyear);</script>
+		</div>
+		<div id="thirdyear">
+			<h4>Tredje år (så langt):</h4>
+			<script>write_courses(courses_thirdyear);</script>
+		</div>
+		<div id="othercourses">
+			<h4>Andre fag jeg har tatt (som ikke er del av studieplanen):</h4>
+			<script>write_courses(other_courses);</script>
+		</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,106 @@
+body{
+	background-image: url("images/background.jpg");
+}
+#menubar>hr{
+	margin-left: 30%;
+	margin-right: 27%;
+	color: black;
+}
+#menubar>ul{
+	list-style-type: none;
+	color: black;
+	text-align: center;
+}
+#menubar>ul>li>a{
+	color: black;
+	text-decoration: none;
+}
+#menubar>ul>li>a:hover{
+	color: green;
+}
+#menubar>ul>li{
+	display: inline;
+}
+#heading{
+	text-align: center;
+	font-family: sans-serif;
+}
+#aboutme-facts{
+	position: relative;
+
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 5%;
+	margin-right: 75%;
+}
+#aboutme-description{
+	margin-left: 5%;
+	margin-right: 50%;
+}
+#aboutme-description>p{
+	text-indent: 30px;
+}
+#communication-image{
+	width: 670px;
+	height: 480px;
+	opacity: 0.5;
+}
+img#me-img{
+	float: right;
+	top:130px;
+	left: 250px;
+	width: 120px;
+	height: 130px;
+}
+img#fourier{
+	position: absolute;
+	left: 65%;
+	top: 240px;
+	opacity: 0.5;
+}
+.fixed-footer{
+	position: absolute;
+    top: 1000px;
+    left: 500px;
+}
+.courses{
+
+}
+#firstyear{
+	position: absolute;
+	left: 10px;
+	top: 205px;
+}
+#secondyear{
+	position: absolute;
+	left: 500px;
+	top: 205px;
+}
+#thirdyear{
+	position: absolute;
+	left: 1000px;
+	top: 205px;
+}
+.courses a{
+	color: black;
+	text-decoration: none;
+	font-style: italic;
+}
+.courses a:hover{
+	color: #C5DB33;
+}
+.courses h5{
+	font-style: serif;
+}
+.courses h4{
+	text-decoration: underline;
+}
+#othercourses{
+	position: absolute;
+	top: 600px;
+}
+#othercourses h5{
+	display: inline;
+}
